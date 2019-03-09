@@ -22,7 +22,7 @@ Rexpack can be run locally on your machine, or pushed to Google App Engine Flexi
 
     npm start
 
-Then navigate to `http://localhost:8080`
+Then navigate to `http://localhost:8000`
 
 ## Deploy to Google App Engine Flex
 

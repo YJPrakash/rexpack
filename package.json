@@ -1,5 +1,5 @@
 {
-  "name": "rexpack",
+  "name": "rexpack-aboutme",
   "version": "1.0.0",
   "description": "Expack is the bare-bones Express and Webpack boilerplate with ES6+ babel transpilation, ESLint linting, Hot Module Reloading, and Jest test framework enabled.",
   "main": "index.js",
@@ -10,9 +10,8 @@
     "buildProd": "rm -rf dist && webpack --mode production --config webpack.server.config.js && webpack --mode production --config webpack.prod.config.js",
     "start": "node ./dist/server.js"
   },
-  "repository": "https://github.com/bengrunfeld/rexpack",
   "keywords": [],
-  "author": "",
+  "author": "YJPrakash",
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.4",
@@ -56,5 +55,13 @@
     "webpack-dev-middleware": "^3.4.0",
     "webpack-hot-middleware": "^2.24.3",
     "webpack-node-externals": "^1.7.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YJPrakash/rexpack-aboutme.git"
+  },
+  "bugs": {
+    "url": "https://github.com/YJPrakash/rexpack-aboutme/issues"
+  },
+  "homepage": "https://github.com/YJPrakash/rexpack-aboutme#readme"
 }
