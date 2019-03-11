@@ -63,7 +63,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebPackPlugin({
-      template: './src/html/index.html',
+      template: './src/public/index.html',
       filename: './index.html'
     }),
     new MiniCssExtractPlugin({
